@@ -15,18 +15,18 @@ seconds.innerText = (0).toLocaleString('en-US', {
     useGrouping: false
 })
 
-let date;
+let time;
 setInterval(() => {
-    date = new Date()
-    hours.innerText = date.getHours().toLocaleString('en-US', {
+    time = new Date()
+    hours.innerText = time.getHours().toLocaleString('en-US', {
         minimumIntegerDigits: 2,
         useGrouping: false
     })
-    minutes.innerText = date.getMinutes().toLocaleString('en-US', {
+    minutes.innerText = time.getMinutes().toLocaleString('en-US', {
         minimumIntegerDigits: 2,
         useGrouping: false
     })
-    seconds.innerText = date.getSeconds().toLocaleString('en-US', {
+    seconds.innerText = time.getSeconds().toLocaleString('en-US', {
         minimumIntegerDigits: 2,
         useGrouping: false
     })
