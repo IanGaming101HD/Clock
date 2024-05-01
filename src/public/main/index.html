@@ -4,29 +4,29 @@
 
 <head>
     <title>Clock</title>
-    <link rel='stylesheet' href='style.css'>
+    <link rel='stylesheet' href='./public/main/style.css'>
 </head>
 
 <body>
     <div class='container'>
-        <div id='clock-container' class='clock-container'>
-            <h1>Clock</h1>
+        <div id='clock-container' class='clock-container centre'>
+            <h1 class='header'>Clock</h1>
             <div class='time-container'>
                 <div class='hours-container'>
                     <p id='hours' class='block time hours'>$hours</p>
-                    <div class='label'><label for='hours'>HOURS</label></div>
+                    <div class='label centre'><label for='hours'>HOURS</label></div>
                 </div>
                 <div class='minutes-container'>
                     <p id='minutes' class='block time minutes'>$minutes</p>
-                    <div class='label'><label for='minutes'>MINUTES</label></div>
+                    <div class='label centre'><label for='minutes'>MINUTES</label></div>
                 </div>
                 <div class='seconds-container'>
-                    <p id='seconds' class='block time seconds'>$seconds</p>
-                    <div class='label'><label for='seconds'>SECONDS</label></div>
+                    <p id='seconds' class='block time seconds centre'>$seconds</p>
+                    <div class='label centre'><label for='seconds'>SECONDS</label></div>
                 </div>
             </div>
         </div>
-        <script src='script.js'></script>
+        <script src='./public/main/script.js'></script>
 </body>
 
 </html>
